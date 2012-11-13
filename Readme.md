@@ -8,7 +8,7 @@ dmcs FindTheNumber.cs
 mono FindTheNumber.exe
 ```
 
-Or in .NET 4.0 or greater:
+Or in .NET 4.0 or above:
 
 ```sh
 csc /out:FindTheNumber.exe FindTheNumber.cs
