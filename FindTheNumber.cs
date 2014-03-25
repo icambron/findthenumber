@@ -18,8 +18,8 @@ namespace FindTheNumber
       Func<Pair, bool> hasOneSummand = pair => !GetSummands(pair).Where(hasOneFactor).Skip(1).Any();
 
       //this lazily produces the set of pairs
-      var generator = TwoThrough(99)
-        .SelectMany(x => TwoThrough(99)
+      var generator = TwoThrough(98)
+        .SelectMany(x => TwoThrough(98)
                     .Where(y => x <= y)
                     .Select(y => Tuple.Create(x, y)));
 
