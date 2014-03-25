@@ -1,5 +1,15 @@
-A man comes up with two numbers and gives one person the sum of these numbers and another person the product of these numbers. He informs them that the sum of these two numbers is under 99. The person with the product goes to the person with the sum and says "I don't know the two numbers". The person with the sum replies with "I know that you don't know the two numbers".  Immediately, the man with the product says "now I know the two numbers" and then the man with the sum says, "now I know the two numbers too". What are the two numbers?
+The Impossible Problem
+======================
 
+From [http://en.wikipedia.org/wiki/Impossible_Puzzle](http://en.wikipedia.org/wiki/Impossible_Puzzle):
+
+X and Y are two different integers, greater than 1, with sum less than 100. S and P are two mathematicians; S knows the sum X+Y, P knows the product X*Y, and both know the information in these two sentences. The following conversation occurs.
+
+P says "I cannot find these numbers."
+S says "I was sure that you could not find them. I cannot find them either."
+P says "Then, I found these numbers."
+S says "If you could find them, then I also found them."
+What are these numbers?
 
 To run in Mono 2.0 or above:
 
